@@ -1,0 +1,37 @@
+{
+  "pages": [
+  
+    "pages/posts/post",
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+
+    
+    "pages/welcome/welcome",
+    "pages/posts/post-detail/post-detail",
+    "pages/movies/more-movie/more-movie"
+  ],
+  "window": {
+    
+    "navigationBarBackgroundColor": "#c46c00"
+  
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "介绍",
+        "iconPath":"images/baricon/鲸鱼1.png",
+        "selectedIconPath":"images/baricon/鲸鱼.png"
+      }, 
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "交流",
+        "iconPath": "images/baricon/考拉1.png",
+        "selectedIconPath": "images/baricon/考拉.png"
+       
+      }
+     ]
+     
+  }
+}
